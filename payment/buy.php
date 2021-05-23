@@ -20,7 +20,7 @@ if (isset($_GET["urun_id"])) {
 
       require_once "shopier.php";
 
-    $shopier = new Shopier('1b28aaac6e8cb6ddfae81eef14de917a', '9a1a238fe4a45d933a7402a168af5db9');
+    $shopier = new Shopier('Shopier key', 'Shopier secret key');
 
     
       // ÖDEME YAPAN KİŞİNİN BİLGİLERİ
